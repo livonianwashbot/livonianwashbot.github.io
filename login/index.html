@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="login_div" class="main-div">
+<div class="form">
+  <div class="username">
+     <input type="email" placeholder="Email" id="email_field" />
+
+  </div>
+  <div class="password">
+    <input type="password" placeholder="Password" id="password_field" />
+  </div>
+  <div class="login">
+    <span onclick="login()">log in</span>
+  </div>
+</div>
+
+  <div id="user_div" class="loggedin-div">
+   
+    <h1 id="user_para"></h1>
+    
+  </div>
+</div>
+<!-- partial -->
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+    apiKey: "AIzaSyAX7kKHTJ0nkMuqVTpzLnar97Rv5Z_jnyI",
+    authDomain: "loginwashbot.firebaseapp.com",
+    databaseURL: "https://loginwashbot.firebaseio.com",
+    projectId: "loginwashbot",
+    storageBucket: "",
+    messagingSenderId: "901052091835",
+    appId: "1:901052091835:web:6b345dfc99f96aa0"
+                        };
+                        firebase.initializeApp(config);
+  </script>
+  <script src="index.js"></script>
+  
+</body>
+</html>

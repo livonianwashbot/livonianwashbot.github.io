@@ -1,0 +1,36 @@
+body {
+  /*background-color: #000000;*/
+  background-image: url("bg.png");
+}
+
+.button {
+  background-color: #5d8ffc;
+  border: none;
+  color: white;
+  padding: 15px;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+
+}
+
+.button:hover {
+  background-color: #2669fc;
+  /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.button {
+  border-radius: 20px;
+}
+
+.red {
+  background: #5d8ffc;
+}
+
+
