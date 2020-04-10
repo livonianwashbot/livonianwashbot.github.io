@@ -12,7 +12,7 @@ firebase.auth().onAuthStateChanged(function(user) {
       var id= user.email.split('@')[0];
       if(id=="admin")
       {
-         window.location.href="/users/admin/admin.html";
+         window.location.href="/users/admin/index.html";
       }
       else if (id=="apollo")
       {
