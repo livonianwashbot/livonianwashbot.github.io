@@ -6,6 +6,10 @@
 ) format('truetype');
 }
 
+body {
+  background-color: black;
+}
+
 .form {
   height: 18.75em;
   width: 25em;
